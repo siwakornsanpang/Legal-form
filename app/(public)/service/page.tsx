@@ -12,14 +12,14 @@ export default function Service() {
           style={{ backgroundImage: `url('/images/public/service/appeal.png')` }}
         >
           <h2 className={styles.cardTitle}>แจ้งเรื่องกล่าวหาหรือกล่าวโทษ</h2>
-          <p className={styles.cardSubtitle}>สำหรับแจ้งเรื่องร้องเรียนกรณีพบเพ็นพฤติกรรมที่อาจไม่เหมาะสมของผู้ประกอบวิชาชีพ</p>
+          <p className={styles.cardSubtitle}>สำหรับแจ้งเรื่องร้องเรียนกรณีพบเห็นพฤติกรรมที่อาจไม่เหมาะสมของผู้ประกอบวิชาชีพ</p>
         </Link>
         <Link 
           href="" 
           className={styles.card}
           style={{ backgroundImage: `url('/images/public/service/inform.png')` }}
         >
-          <h2 className={styles.cardTitle}>ติดตามสถานะเรื่องร้องเรียน<br></br>กล่าวหา/กล่าวโทษ</h2>
+          <h2 className={styles.cardTitle}>ติดตามสถานะเรื่องร้องเรียน<br></br>(กล่าวหา/กล่าวโทษ)</h2>
           <p className={styles.cardSubtitle}>ตรวจสอบสถานะปัจจุบันของเรื่องที่ท่านได้แจ้งไว้ หรือตรวจสอบสถานะในฐานะผู้ถูกร้องเรียน</p>
         </Link>
 
